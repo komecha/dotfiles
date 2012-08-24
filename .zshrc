@@ -233,3 +233,5 @@ esac
 
 #~/.zshrcから~/.zshrc.mineファイルの内容を読み込んで実行
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
+
+#end
