@@ -225,3 +225,9 @@
 ;;; 非標準Elispの設定
 (load "config/packages.el")
 
+;;;
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+;(package-activate 'magit '(1 1 1))
+(require 'magit)
